@@ -1,24 +1,11 @@
-# =============================================================================
-#  Guarda las gráficas clave del proyecto como imágenes .png dentro de img/
-#  para poder mostrarlas en el README de GitHub.
-#
-#  IMPORTANTE: primero ejecuta tu análisis completo (proyecto_severidad.R)
-#  con el botón "Source". Eso crea en memoria los objetos que este script
-#  necesita (arbol_estados, d5_sev_final1, agg_final).
-#  Después abre este archivo y ejecútalo también con "Source".
-#
-#  Al terminar tendrás la carpeta img/ con:
-#    - clustering.png        (dendrograma de agrupación de estados)
-#    - adn_danos_grupos.png  (densidad de daños por grupo)
-#    - ajuste_grupo.png      (QQ-plot de validación del ajuste)
-# =============================================================================
+
 
 library(ggplot2)
 library(dplyr)
 library(fitdistrplus)
 library(actuar)
 
-# Ubica la carpeta del proyecto (donde vive este script) y crea img/
+# Ubica la carpeta del proyecto y crea img/
 localizar <- function() {
   for (i in sys.nframe():1) {
     of <- sys.frame(i)$ofile
