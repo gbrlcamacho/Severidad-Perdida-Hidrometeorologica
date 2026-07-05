@@ -6,7 +6,7 @@ datos históricos del **Atlas Nacional de Riesgos (2000–2024)**, el proyecto c
 **limpieza de datos**, **ajuste por inflación (INPC)**, **clustering jerárquico** y
 **modelación de colas pesadas** para estimar el **costo promedio esperado por evento**.
 
-> Proyecto I — Modelos Actuariales para la Severidad del Daño (MASD)
+> Proyecto I — Matematicas Actuariales de Seguros de Daños (MASD)
 
 ---
 
